@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-lg-4 col-md-6 mb-4" *ngFor="let prod of products">
+    <div class="card h-100">
+      <a [routerLink]="['/product', prod.product_id]">
+        <img class="card-img-top" src="/assets/img/{{prod.product_image}}" alt="">
+      </a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a [routerLink]="['/product', prod.product_id]">{{prod.product_name}}</a>
+        </h4>
+        <h5>${{prod.price}}</h5>
+        <p class="card-text">{{prod.product_desc| slice:0:150}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf='productcount === 0'>
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="alert alert-warning" role="alert">
+        <strong>No Products found!</strong>
+      </div>
+    </div>
+  </div>
+</div>

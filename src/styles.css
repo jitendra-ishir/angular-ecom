@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.m-t-20{ 
+    margin-top: 20px;
+}
+.m-b-20{ 
+    margin-bottom: 20px;
+}
+.m-20{
+    margin: 20px;
+}
+.product-detail-container{
+    min-height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+.panel {  
+    padding: 10px;
+}
+.panel-heading{
+    padding: 10px 5px;
+    border-color: #aaaaaa!important;
+    background: #6593C0!important; 
+    font-weight: bold;
+    color: #ffffff!important;
+}
+.panel-body { 
+    padding: 15px 0; 
+}
+.error-page {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+.content-page  { text-align: left; padding: 50px;}
+.pagetitle { text-align: left; }
+.content-page p { text-align: justify; }
+.noBorderRadius{ border-radius: 0rem; }
+.sidebar-search-input { width: 83%; float: left; border-radius: 0rem;}

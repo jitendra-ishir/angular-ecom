@@ -1,0 +1,11 @@
+<div class="input-group py-1 px-2 px-md-0">
+    <form [formGroup]="rForm" (ngSubmit)="searchProd(rForm.value)">
+        <input formControlName="searchkeyword" class="form-control sidebar-search-input " type="text" placeholder="Search here..." aria-label="Search">
+        <div class="input-group-append">
+            <button class="btn btn-outline-success noBorderRadius" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </form>
+</div>
+<app-categories></app-categories>

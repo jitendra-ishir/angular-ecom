@@ -1,0 +1,9 @@
+[
+    {"product_id" : 1, "product_name": "Product 1", "category": "1", "price": "100", "product_desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit", "product_image": "test.png"},
+    {"product_id" : 2, "product_name": "Product 2", "category": "1", "price": "200", "product_desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit", "product_image": "test.png"},
+    {"product_id" : 3, "product_name": "Product 3", "category": "1", "price": "300", "product_desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit", "product_image": "test.png"},
+    {"product_id" : 4, "product_name": "Product 4", "category": "1", "price": "400", "product_desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit", "product_image": "test.png"},
+    {"product_id" : 5, "product_name": "Product 5", "category": "1", "price": "500", "product_desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit", "product_image": "test.png"},
+    {"product_id" : 6, "product_name": "Product 6", "category": "2", "price": "600", "product_desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit", "product_image": "test.png"},
+    {"product_id" : 7, "product_name": "Product 7", "category": "2", "price": "700", "product_desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit", "product_image": "test.png"}
+]
